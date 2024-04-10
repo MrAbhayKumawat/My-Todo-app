@@ -5,7 +5,6 @@ const Navbar = () => {
 
     let username = "";
     if (typeof window !== 'undefined') {
-        // Access localStorage only on the client-side
         username = localStorage.getItem("useremail");
     }
   return (

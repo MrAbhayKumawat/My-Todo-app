@@ -68,7 +68,7 @@ function Form() {
           <button
             type="submit"
             className="p-2 w-full border-2 mt-3 font-semibold bg-purple-500 text-white"
-            onClick={handleFormSubmission} // Remove arrow function
+            onClick={handleFormSubmission} 
           >
             {state.updatedata.id ? "Update Todo" : "Add Todo"}
           </button>
