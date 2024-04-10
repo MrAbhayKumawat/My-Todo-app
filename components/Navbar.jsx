@@ -47,7 +47,7 @@ const Navbar = () => {
           className="hidden w-full md:block md:w-auto"
           id="navbar-default"
         >
-                      <h1 className="text-white">{username||NA}</h1>
+                  <h1 className="text-white">{username ||"NA"}</h1>
         
         </div>
       </div>
