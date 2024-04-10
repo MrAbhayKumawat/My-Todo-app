@@ -21,8 +21,9 @@ const Register = () => {
 
       })
       .catch((e) => {
+          setLoading(false)
         console.log("catch ", e.message);
-        alert("Something went wrong please try again");
+          alert("Something went wrong please try again");
       });
   };
 
